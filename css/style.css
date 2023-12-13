@@ -1,0 +1,86 @@
+/******************************* Frmatação da pagina ****************************/
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(141, 3, 137);
+}
+/******************************* Meu Nome ****************************/
+
+h1 {
+
+    border-radius: 7px;
+    color: #000000;
+    background: #333333fe;
+    text-shadow: rgba(255, 255, 255, 0.984) 0px 0px 5px, rgb(255, 255, 255) 0px 0px 10px, rgba(255, 255, 255, 0.459) 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #e30071 0px 0px 50px, #e70878 0px 0px 75px;
+    color: #000000;
+    background-color: rgba(0, 0, 0, 0);
+}
+/******************************* Cor de Fundo da pagina ****************************/
+
+body {
+    background-color: rgb(255, 255, 255);
+
+}
+/******************************* Estilização meio da pagina ****************************/
+
+#container {
+    border-radius: 7px;
+    text-align: center;
+    border: solid 1px rgb(188, 24, 188);
+    padding: 9px;
+    margin-bottom: 25px;
+    background-color: rgb(212, 208, 208);
+    box-shadow: -2px 10px 12px -6px rgba(0, 0, 0, 0.71);
+    -webkit-box-shadow: -2px 10px 12px -6px rgb(0, 0, 0);
+    -moz-box-shadow: -2px 10px 12px -6px rgb(0, 0, 0);
+}
+/******************************* Estilo da imagem do pc ****************************/
+
+.pc {
+    position: relative;
+    width: 30%;
+    top: 100%;
+    left: 35%;
+    padding: 20px;
+}
+
+/******************************* Estilo do botão de contato ****************************/
+
+.contato {
+    position: absolute;
+    border-radius: 70px;
+   cursor: pointer;
+    margin-left: 45%;
+    margin-right: 45%;
+    color: white;
+    width: 200px;
+    background-color: rgb(141, 3, 137);
+
+
+
+}
+/******************************* Estilo do paragráfo****************************/
+
+.paragráfo {
+
+    text-align: center;
+    padding: 30px;
+
+
+}
+/******************************* espaçamento fundo da pagina ****************************/
+
+.rodapé {
+    margin-bottom: 6px;
+   
+    
+}
+/******************************* Medias Query da pagina ****************************/
+
+@media (min-width: 320px) and (max-width: 768px){
+#container{
+ 
+
+}
