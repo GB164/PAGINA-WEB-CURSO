@@ -74,13 +74,18 @@ body {
 
 .rodapé {
     margin-bottom: 6px;
+    
    
     
 }
 /******************************* Medias Query da pagina ****************************/
 
-@media (min-width: 320px) and (max-width: 768px){
-#container{
- 
+@media screen and (max-width: 500px){
+.contato{
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 25%;
+
+
 
 }
