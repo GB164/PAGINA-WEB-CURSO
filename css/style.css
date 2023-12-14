@@ -80,12 +80,34 @@ body {
 }
 /******************************* Medias Query da pagina ****************************/
 
-@media screen and (max-width: 500px){
+@media screen and (min-width: 320px){
 .contato{
     width: 200px;
-    margin-top: 20px;
-    margin-left: 25%;
-
-
-
+   
+    margin-left: 22%;
 }
+    @media screen and (min-width:400px){
+        .contato{
+            margin-left: 25%;
+            
+    }
+    @media screen and (min-width:450px){
+        .contato{
+            margin-left: 30%;
+            
+           
+        
+}
+@media screen and (min-width:500px){
+    .contato{
+        margin-left: 35%;
+        text-align: center;
+    }
+    
+}
+}
+@media screen and (min-width:700px){
+    .contato{
+        margin-left: 40%;
+        
+    }
