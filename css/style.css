@@ -82,32 +82,10 @@ body {
 
 @media screen and (min-width: 320px){
 .contato{
-    width: 200px;
+  margin-left:39% ;
+ width: 25%;
+ font-size: 80%;
+ text-align: center;
+ padding:  AUTO;
    
-    margin-left: 22%;
 }
-    @media screen and (min-width:400px){
-        .contato{
-            margin-left: 25%;
-            
-    }
-    @media screen and (min-width:450px){
-        .contato{
-            margin-left: 30%;
-            
-           
-        
-}
-@media screen and (min-width:500px){
-    .contato{
-        margin-left: 35%;
-        text-align: center;
-    }
-    
-}
-}
-@media screen and (min-width:700px){
-    .contato{
-        margin-left: 40%;
-        
-    }
